@@ -1,0 +1,34 @@
+.icon-share {
+  color: #FFFFFF;
+  max-width: 100%;
+  height: auto;
+  font-size: 2rem;
+}
+
+.share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;  
+  font-size: 2rem;
+  font-family: system-ui, -apple-system;
+  border-radius: 5rem;
+  background: #3D5A80;
+  width: 13rem;
+  padding: 1.5rem;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+span:hover {
+  transition: all 300ms ease-in-out;
+  background: #FFFFFF;
+  border: solid .1rem #3D5A80;
+  color: #3D5A80;
+}
+
+span:hover .icon-share {
+  color: #3D5A80;
+  transition: all 300ms ease-in-out;
+}
